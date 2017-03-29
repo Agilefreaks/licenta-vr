@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 1db284ca0568612478b806c92815cf31
+timeCreated: 1490783467
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1
+    100002: arm1 1
+    100004: arm2
+    100006: arm2 1
+    100008: arm3
+    100010: arm3 1
+    100012: armature
+    100014: armCTRL
+    100016: armCTRL_end
+    100018: base
+    100020: base 1
+    100022: Cabinet1
+    100024: Cabinet1.001
+    100026: Cabinet1.002
+    100028: Camera
+    100030: Cheie.002
+    100032: Cheie_dubla.001
+    100034: Cheie_dubla.002
+    100036: Cheie_dubla.005
+    100038: Cheie_dubla.006
+    100040: Ciocan.001
+    100042: Ciocan.002
+    100044: Cleste.001
+    100046: Cleste.002
+    100048: Column_box_bottom.000
+    100050: Column_box_bottom.001
+    100052: Column_box_bottom.002
+    100054: Column_box_bottom.004
+    100056: CTRL_Hole
+    100058: CTRL_Hole.002
+    100060: CTRL_Hole.003
+    100062: CTRL_Hole.004
+    100064: Cube.001
+    100066: Cube.003
+    100068: Door
+    100070: Door_Group
+    100072: DoorFrame
+    100074: Drawer
+    100076: Drawer.001
+    100078: Drawer.002
+    100080: Drawer.003
+    100082: Drawer.004
+    100084: Drawer.005
+    100086: Drawer.006
+    100088: Drawer.007
+    100090: Drawer.008
+    100092: hand
+    100094: hand 1
+    100096: Handle.002
+    100098: Handle.003
+    100100: Handle.004
+    100102: Handle.005
+    100104: Handle.006
+    100106: Handle.007
+    100108: Handle.008
+    100110: Handle.009
+    100112: Handle.010
+    100114: Handle_Front.001
+    100116: //RootNode
+    100118: pincer1
+    100120: pincer1 1
+    100122: pincer1_end
+    100124: pincer1CTRL
+    100126: pincer1CTRL_end
+    100128: pincer2
+    100130: pincer2 1
+    100132: pincer2_end
+    100134: pincer2CTRL
+    100136: pincer2CTRL_end
+    100138: Shelves1.001
+    100140: Shelves4
+    100142: Siurubelnita.001
+    100144: turret
+    100146: turret 1
+    100148: Window
+    100150: Window.001
+    100152: Window.002
+    100154: Window.003
+    100156: Window.004
+    100158: Window_Group
+    100160: Window_Group.001
+    100162: Window_Group.002
+    100164: Window_Group.006
+    100166: Window_Group.007
+    400000: arm1
+    400002: arm1 1
+    400004: arm2
+    400006: arm2 1
+    400008: arm3
+    400010: arm3 1
+    400012: armature
+    400014: armCTRL
+    400016: armCTRL_end
+    400018: base
+    400020: base 1
+    400022: Cabinet1
+    400024: Cabinet1.001
+    400026: Cabinet1.002
+    400028: Camera
+    400030: Cheie.002
+    400032: Cheie_dubla.001
+    400034: Cheie_dubla.002
+    400036: Cheie_dubla.005
+    400038: Cheie_dubla.006
+    400040: Ciocan.001
+    400042: Ciocan.002
+    400044: Cleste.001
+    400046: Cleste.002
+    400048: Column_box_bottom.000
+    400050: Column_box_bottom.001
+    400052: Column_box_bottom.002
+    400054: Column_box_bottom.004
+    400056: CTRL_Hole
+    400058: CTRL_Hole.002
+    400060: CTRL_Hole.003
+    400062: CTRL_Hole.004
+    400064: Cube.001
+    400066: Cube.003
+    400068: Door
+    400070: Door_Group
+    400072: DoorFrame
+    400074: Drawer
+    400076: Drawer.001
+    400078: Drawer.002
+    400080: Drawer.003
+    400082: Drawer.004
+    400084: Drawer.005
+    400086: Drawer.006
+    400088: Drawer.007
+    400090: Drawer.008
+    400092: hand
+    400094: hand 1
+    400096: Handle.002
+    400098: Handle.003
+    400100: Handle.004
+    400102: Handle.005
+    400104: Handle.006
+    400106: Handle.007
+    400108: Handle.008
+    400110: Handle.009
+    400112: Handle.010
+    400114: Handle_Front.001
+    400116: //RootNode
+    400118: pincer1
+    400120: pincer1 1
+    400122: pincer1_end
+    400124: pincer1CTRL
+    400126: pincer1CTRL_end
+    400128: pincer2
+    400130: pincer2 1
+    400132: pincer2_end
+    400134: pincer2CTRL
+    400136: pincer2CTRL_end
+    400138: Shelves1.001
+    400140: Shelves4
+    400142: Siurubelnita.001
+    400144: turret
+    400146: turret 1
+    400148: Window
+    400150: Window.001
+    400152: Window.002
+    400154: Window.003
+    400156: Window.004
+    400158: Window_Group
+    400160: Window_Group.001
+    400162: Window_Group.002
+    400164: Window_Group.006
+    400166: Window_Group.007
+    2300000: arm1 1
+    2300002: arm2 1
+    2300004: arm3 1
+    2300006: base 1
+    2300008: Cabinet1
+    2300010: Cabinet1.001
+    2300012: Cabinet1.002
+    2300014: Camera
+    2300016: Cheie.002
+    2300018: Cheie_dubla.001
+    2300020: Cheie_dubla.002
+    2300022: Cheie_dubla.005
+    2300024: Cheie_dubla.006
+    2300026: Ciocan.001
+    2300028: Ciocan.002
+    2300030: Cleste.001
+    2300032: Cleste.002
+    2300034: Column_box_bottom.000
+    2300036: Column_box_bottom.001
+    2300038: Column_box_bottom.002
+    2300040: Column_box_bottom.004
+    2300042: CTRL_Hole
+    2300044: CTRL_Hole.002
+    2300046: CTRL_Hole.003
+    2300048: CTRL_Hole.004
+    2300050: Cube.001
+    2300052: Cube.003
+    2300054: Door
+    2300056: DoorFrame
+    2300058: Drawer
+    2300060: Drawer.001
+    2300062: Drawer.002
+    2300064: Drawer.003
+    2300066: Drawer.004
+    2300068: Drawer.005
+    2300070: Drawer.006
+    2300072: Drawer.007
+    2300074: Drawer.008
+    2300076: hand 1
+    2300078: Handle.002
+    2300080: Handle.003
+    2300082: Handle.004
+    2300084: Handle.005
+    2300086: Handle.006
+    2300088: Handle.007
+    2300090: Handle.008
+    2300092: Handle.009
+    2300094: Handle.010
+    2300096: Handle_Front.001
+    2300098: pincer1 1
+    2300100: pincer2 1
+    2300102: Shelves1.001
+    2300104: Shelves4
+    2300106: Siurubelnita.001
+    2300108: turret 1
+    2300110: Window
+    2300112: Window.001
+    2300114: Window.002
+    2300116: Window.003
+    2300118: Window.004
+    3300000: arm1 1
+    3300002: arm2 1
+    3300004: arm3 1
+    3300006: base 1
+    3300008: Cabinet1
+    3300010: Cabinet1.001
+    3300012: Cabinet1.002
+    3300014: Camera
+    3300016: Cheie.002
+    3300018: Cheie_dubla.001
+    3300020: Cheie_dubla.002
+    3300022: Cheie_dubla.005
+    3300024: Cheie_dubla.006
+    3300026: Ciocan.001
+    3300028: Ciocan.002
+    3300030: Cleste.001
+    3300032: Cleste.002
+    3300034: Column_box_bottom.000
+    3300036: Column_box_bottom.001
+    3300038: Column_box_bottom.002
+    3300040: Column_box_bottom.004
+    3300042: CTRL_Hole
+    3300044: CTRL_Hole.002
+    3300046: CTRL_Hole.003
+    3300048: CTRL_Hole.004
+    3300050: Cube.001
+    3300052: Cube.003
+    3300054: Door
+    3300056: DoorFrame
+    3300058: Drawer
+    3300060: Drawer.001
+    3300062: Drawer.002
+    3300064: Drawer.003
+    3300066: Drawer.004
+    3300068: Drawer.005
+    3300070: Drawer.006
+    3300072: Drawer.007
+    3300074: Drawer.008
+    3300076: hand 1
+    3300078: Handle.002
+    3300080: Handle.003
+    3300082: Handle.004
+    3300084: Handle.005
+    3300086: Handle.006
+    3300088: Handle.007
+    3300090: Handle.008
+    3300092: Handle.009
+    3300094: Handle.010
+    3300096: Handle_Front.001
+    3300098: pincer1 1
+    3300100: pincer2 1
+    3300102: Shelves1.001
+    3300104: Shelves4
+    3300106: Siurubelnita.001
+    3300108: turret 1
+    3300110: Window
+    3300112: Window.001
+    3300114: Window.002
+    3300116: Window.003
+    3300118: Window.004
+    4300000: Cube.003
+    4300002: Column_box_bottom.004
+    4300004: Column_box_bottom.002
+    4300006: Column_box_bottom.001
+    4300008: Cheie_dubla.006
+    4300010: Cheie_dubla.005
+    4300012: Cube.001
+    4300014: CTRL_Hole.004
+    4300016: Window.004
+    4300018: Window.003
+    4300020: CTRL_Hole.003
+    4300022: CTRL_Hole.002
+    4300024: Window.002
+    4300026: Window.001
+    4300028: CTRL_Hole
+    4300030: Window
+    4300032: Camera
+    4300034: Column_box_bottom.000
+    4300036: Ciocan.001
+    4300038: Cheie_dubla.002
+    4300040: Cleste.001
+    4300042: Cleste.002
+    4300044: Ciocan.002
+    4300046: Cheie.002
+    4300048: Siurubelnita.001
+    4300050: Cheie_dubla.001
+    4300052: Cabinet1.002
+    4300054: Drawer.008
+    4300056: Handle.010
+    4300058: Drawer.007
+    4300060: Handle.009
+    4300062: Drawer.006
+    4300064: Handle.008
+    4300066: Cabinet1.001
+    4300068: Drawer.005
+    4300070: Handle.007
+    4300072: Drawer.004
+    4300074: Handle.006
+    4300076: Drawer.003
+    4300078: Handle.005
+    4300080: Cabinet1
+    4300082: Drawer.002
+    4300084: Handle.004
+    4300086: Drawer.001
+    4300088: Handle.003
+    4300090: Drawer
+    4300092: Handle.002
+    4300094: Shelves1.001
+    4300096: Shelves4
+    4300098: DoorFrame
+    4300100: Door
+    4300102: Handle_Front.001
+    4300104: base
+    4300106: turret
+    4300108: arm1
+    4300110: arm2
+    4300112: arm3
+    4300114: hand
+    4300116: pincer1
+    4300118: pincer2
+    7400000: armature|armatureAction
+    7400002: armature|armatureAction.001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
