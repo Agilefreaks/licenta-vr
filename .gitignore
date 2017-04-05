@@ -27,3 +27,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Test scene
+Licenta_test.unity
+Licenta_test.unity.meta
