@@ -1,32 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
-using Hover.Core.Utils;
+﻿using UnityEngine;
 
-public class OpenCloseController : MonoBehaviour {
+namespace HintSystem
+{
+    public class OpenCloseController : MonoBehaviour {
 
-    private LineRenderer _lineRenderer;
+        private LineRenderer _lineRenderer;
 
-    public Transform TargetObject;
+        public Transform HintTransform;
+        public Transform DescriptionTransform;
 
-    void Start()
-    {
-        _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();        
+        void Start()
+        {
+            _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();        
+        }
+
+        public void OnHintOpen()
+        {
+            if (!_lineRenderer.enabled) _lineRenderer.enabled = true;
+            if (!HintTransform.gameObject.activeSelf) HintTransform.gameObject.SetActive(true);
+            if (HintTransform.parent != null) HintTransform.parent = null;
+        }
+
+        public void OnHintClose()
+        {
+            if (_lineRenderer.enabled) _lineRenderer.enabled = false;
+            if (HintTransform.gameObject.activeSelf) HintTransform.gameObject.SetActive(false);
+            if (HintTransform.parent == null) HintTransform.parent = gameObject.transform;
+        }
+
+        public void OnDescriptionOpen()
+        {
+            if (!DescriptionTransform.gameObject.activeSelf) DescriptionTransform.gameObject.SetActive(true);
+            if (DescriptionTransform.parent != null) DescriptionTransform.parent = null;
+        }
+
+        public void OnDescriptionClose()
+        {
+            if (DescriptionTransform.gameObject.activeSelf) DescriptionTransform.gameObject.SetActive(false);
+            if (DescriptionTransform.parent == null) DescriptionTransform.parent = gameObject.transform;
+        }
     }
-
-    public void OnHintOpen()
-    {
-        if (!_lineRenderer.enabled) _lineRenderer.enabled = true;
-        if (!TargetObject.gameObject.activeSelf) TargetObject.gameObject.SetActive(true);
-        if (TargetObject.parent != null) TargetObject.parent = null;
-    }
-
-    public void OnHintClose()
-    {
-        if (_lineRenderer.enabled) _lineRenderer.enabled = false;
-        if (TargetObject.gameObject.activeSelf) TargetObject.gameObject.SetActive(false);
-        if (TargetObject.parent == null) TargetObject.parent = gameObject.transform;
-    }
-   
 }

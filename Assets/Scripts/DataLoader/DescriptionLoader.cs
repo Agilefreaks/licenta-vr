@@ -13,9 +13,8 @@ public class DescriptionLoader : MonoBehaviour {
     // Use this for initialization
     void Start () {
         _jsonLoader = GetComponent<JsonLoader>();
-       /*
         var model = _jsonLoader.GetObjectDetails("Directional Light");
-        Name.text = model.Name;
-        Description.text = model.Description;*/
+        if(Name != null) Name.text = model.Name;
+        if(Description != null) Description.text = model.Description;
     }
 }

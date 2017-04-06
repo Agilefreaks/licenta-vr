@@ -1,32 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ShowHintWindow : MonoBehaviour
+namespace HintSystem
 {
-
-    private LineRenderer _lineRenderer;
-    private Transform _cameraLocation;
-
-    public Transform TargetObject;
-
-    // Use this for initialization
-    void Start()
+    public class ShowHintWindow : MonoBehaviour
     {
-        _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();
-        _cameraLocation = Camera.main.gameObject.transform;        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (_lineRenderer == null) return;
+        private LineRenderer _lineRenderer;
+        private Transform _cameraLocation;
 
-        _lineRenderer.SetPosition(0, gameObject.transform.position);
-        _lineRenderer.SetPosition(1, TargetObject.transform.position);
+        public Transform TargetObject;
+
+        // Use this for initialization
+        void Start()
+        {
+            _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();
+            _cameraLocation = Camera.main.gameObject.transform;        
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (_lineRenderer == null) return;
+
+            _lineRenderer.SetPosition(0, gameObject.transform.position);
+            _lineRenderer.SetPosition(1, TargetObject.transform.position);
         
-        TargetObject.position = new Vector3(_cameraLocation.position.x, _cameraLocation.position.y - 0.3f, _cameraLocation.position.z + 0.5f);
-        TargetObject.eulerAngles = new Vector3(60, 0);
-        TargetObject.localScale = new Vector3(2, 2, 2);
+            TargetObject.position = new Vector3(_cameraLocation.position.x, _cameraLocation.position.y - 0.3f, _cameraLocation.position.z + 0.5f);
+            TargetObject.eulerAngles = new Vector3(60, 0);
+            TargetObject.localScale = new Vector3(2, 2, 2);
+        }
     }
 }
