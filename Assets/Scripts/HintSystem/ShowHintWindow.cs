@@ -21,13 +21,12 @@ public class ShowHintWindow : MonoBehaviour
     void Update()
     {
         if (_lineRenderer == null) return;
-        
-        
 
         _lineRenderer.SetPosition(0, gameObject.transform.position);
         _lineRenderer.SetPosition(1, TargetObject.transform.position);
         
         TargetObject.position = new Vector3(_cameraLocation.position.x, _cameraLocation.position.y - 0.3f, _cameraLocation.position.z + 0.5f);
         TargetObject.eulerAngles = new Vector3(60, 0);
+        TargetObject.localScale = new Vector3(2, 2, 2);
     }
 }

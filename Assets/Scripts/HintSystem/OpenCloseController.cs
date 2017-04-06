@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using Hover.Core.Utils;
 
 public class OpenCloseController : MonoBehaviour {
 
@@ -8,14 +10,9 @@ public class OpenCloseController : MonoBehaviour {
 
     public Transform TargetObject;
 
-    public SteamVR_TrackedObject trackedObject;
-    private SteamVR_Controller.Device device;
-
     void Start()
     {
-        _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();
-        // = GetComponent<SteamVR_TrackedObject>();
-
+        _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();        
     }
 
     public void OnHintOpen()
@@ -27,18 +24,9 @@ public class OpenCloseController : MonoBehaviour {
 
     public void OnHintClose()
     {
-        if (!_lineRenderer.enabled) _lineRenderer.enabled = false;
-        if (!TargetObject.gameObject.activeSelf) TargetObject.gameObject.SetActive(false);
-        if (TargetObject.parent != null) TargetObject.parent = gameObject.transform;
+        if (_lineRenderer.enabled) _lineRenderer.enabled = false;
+        if (TargetObject.gameObject.activeSelf) TargetObject.gameObject.SetActive(false);
+        if (TargetObject.parent == null) TargetObject.parent = gameObject.transform;
     }
-
-    private void Update()
-    {
-        device = SteamVR_Controller.Input((int)trackedObject.index);
-
-        if (device.GetPressDown(SteamVR_Controller.ButtonMask.Trigger))
-        {
-            OnHintOpen();            
-        }
-    }
+   
 }
