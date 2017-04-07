@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< master
 guid: 402e0c10ca4c2304092fdcbd8f25da68
 folderAsset: yes
 timeCreated: 1491484993
+=======
+guid: a86f533d4e96783458891f7f918eac92
+folderAsset: yes
+timeCreated: 1491401673
+>>>>>>> [#43] Add icon (i) in front of camera
 licenseType: Pro
 DefaultImporter:
   userData: 

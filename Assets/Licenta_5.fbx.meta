@@ -340,6 +340,63 @@ ModelImporter:
     4300108: hand
     4300110: pincer1
     4300112: pincer2
+    6400000: arm1 1
+    6400002: arm2 1
+    6400004: arm3 1
+    6400006: base 1
+    6400008: Cabinet1
+    6400010: Cabinet1.001
+    6400012: Cabinet1.002
+    6400014: Camera
+    6400016: Cheie.002
+    6400018: Cheie_dubla.001
+    6400020: Cheie_dubla.002
+    6400022: Cheie_dubla.005
+    6400024: Cheie_dubla.006
+    6400026: Ciocan.001
+    6400028: Ciocan.002
+    6400030: Cleste.001
+    6400032: Cleste.002
+    6400034: Column_box_bottom.000
+    6400036: Column_box_bottom.001
+    6400038: Column_box_bottom.002
+    6400040: Column_box_bottom.004
+    6400042: Cube.001
+    6400044: Cube.003
+    6400046: Door
+    6400048: DoorFrame
+    6400050: Drawer
+    6400052: Drawer.001
+    6400054: Drawer.002
+    6400056: Drawer.003
+    6400058: Drawer.004
+    6400060: Drawer.005
+    6400062: Drawer.006
+    6400064: Drawer.007
+    6400066: Drawer.008
+    6400068: hand 1
+    6400070: Handle.002
+    6400072: Handle.003
+    6400074: Handle.004
+    6400076: Handle.005
+    6400078: Handle.006
+    6400080: Handle.007
+    6400082: Handle.008
+    6400084: Handle.009
+    6400086: Handle.010
+    6400088: Handle_Front.001
+    6400090: pincer1 1
+    6400092: pincer2 1
+    6400094: Shelves1.001
+    6400096: Shelves4
+    6400098: Shelves6.001
+    6400100: Siurubelnita.001
+    6400102: turret 1
+    6400104: Window
+    6400106: Window.001
+    6400108: Window.002
+    6400110: Window.003
+    6400112: Window.004
     7400000: armature|armatureAction
     7400002: armature|armatureAction.001
     9500000: //RootNode
@@ -369,7 +426,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
