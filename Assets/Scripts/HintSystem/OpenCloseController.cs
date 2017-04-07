@@ -2,16 +2,18 @@
 
 namespace HintSystem
 {
-    public class OpenCloseController : MonoBehaviour {
+    public class OpenCloseController : MonoBehaviour
+    {
 
         private LineRenderer _lineRenderer;
 
         public Transform HintTransform;
         public Transform DescriptionTransform;
+        public bool DescriptionWindowIsOpen = false;
 
         void Start()
         {
-            _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();        
+            _lineRenderer = gameObject.GetComponentInChildren<LineRenderer>();
         }
 
         public void OnHintOpen()
@@ -26,18 +28,29 @@ namespace HintSystem
             if (_lineRenderer.enabled) _lineRenderer.enabled = false;
             if (HintTransform.gameObject.activeSelf) HintTransform.gameObject.SetActive(false);
             if (HintTransform.parent == null) HintTransform.parent = gameObject.transform;
+            OnDescriptionClose();
+        }
+
+        public void OnDescriptionToggle()
+        {
+            if (DescriptionWindowIsOpen)
+                OnDescriptionClose();
+            else
+                OnDescriptionOpen();
         }
 
         public void OnDescriptionOpen()
         {
             if (!DescriptionTransform.gameObject.activeSelf) DescriptionTransform.gameObject.SetActive(true);
             if (DescriptionTransform.parent != null) DescriptionTransform.parent = null;
+            DescriptionWindowIsOpen = true;
         }
 
         public void OnDescriptionClose()
         {
             if (DescriptionTransform.gameObject.activeSelf) DescriptionTransform.gameObject.SetActive(false);
             if (DescriptionTransform.parent == null) DescriptionTransform.parent = gameObject.transform;
+            DescriptionWindowIsOpen = false;
         }
     }
 }

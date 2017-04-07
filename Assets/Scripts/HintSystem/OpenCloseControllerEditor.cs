@@ -20,6 +20,16 @@ namespace HintSystem
             {
                 myScript.OnHintClose();
             }
+
+            if (GUILayout.Button("Open Description"))
+            {
+                myScript.OnDescriptionOpen();
+            }
+
+            if (GUILayout.Button("Close Description"))
+            {
+                myScript.OnDescriptionClose();
+            }
         }
     }
 }

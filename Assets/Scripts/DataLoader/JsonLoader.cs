@@ -28,5 +28,4 @@ public class JsonLoader : MonoBehaviour
     {
         return ObjectModelList.FirstOrDefault(model => model.Name.Equals(name));
     }
-
 }
